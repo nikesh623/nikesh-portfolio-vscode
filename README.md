@@ -10,6 +10,10 @@ A static portfolio website for Nikesh Kumar Sah, set up for local development an
 
 No Node.js packages are required. You can also run `python3 -m http.server 8000` from this folder and visit `http://localhost:8000`.
 
+## Deploy to Vercel
+
+This is a static site served from the repository root. In Vercel, connect this repository, set the framework preset to **Other**, leave the build command empty, and set the output directory to `.` so the deployment includes `index.html`, `styles.css`, `script.js`, and the asset folders.
+
 ## Project files
 
 - `index.html` — portfolio content and page structure
